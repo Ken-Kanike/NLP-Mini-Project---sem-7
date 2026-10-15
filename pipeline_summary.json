@@ -1,0 +1,53 @@
+{
+  "eval_results": {
+    "ROUGE Overlap": {
+      "Precision": 0.7894736842105263,
+      "Recall": 1.0,
+      "F1": 0.8823529411764706,
+      "AUC-ROC": 0.9600000000000001
+    },
+    "TF-IDF Cosine": {
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0,
+      "AUC-ROC": 1.0
+    },
+    "NLI Entailment": {
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0,
+      "AUC-ROC": 1.0
+    },
+    "\u2b50 Ensemble": {
+      "Precision": 1.0,
+      "Recall": 1.0,
+      "F1": 1.0,
+      "AUC-ROC": 1.0
+    }
+  },
+  "calib_results": {
+    "ROUGE Overlap": {
+      "T": 1.5,
+      "ece_before": 0.14023009408373965,
+      "ece_after": 0.15587155234985045
+    },
+    "TF-IDF Cosine": {
+      "T": 1.3,
+      "ece_before": 0.2438502459941812,
+      "ece_after": 0.19276480611569619
+    },
+    "NLI Entailment": {
+      "T": 1.2,
+      "ece_before": 0.17819493167516065,
+      "ece_after": 0.17523731002739978
+    }
+  },
+  "dataset": {
+    "total": 30,
+    "faithful": 15,
+    "hallucinated": 15,
+    "qa": 10,
+    "sum": 10,
+    "d2t": 10
+  }
+}
